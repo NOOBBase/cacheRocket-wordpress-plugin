@@ -1,4 +1,4 @@
-# CacheRocket - WordPress Cache Warming
+# CacheRocket - the most advanced Cache Warming
 
 **Contributors**: NOOBBase
 **Tags**: cache, performance, SEO, speed optimization, cache warming  
@@ -7,14 +7,15 @@
 **Stable tag**: 1.0.0  
 **License**: GPLv2 or later  
 **License URI**: https://www.gnu.org/licenses/gpl-2.0.html
-
-## Short Description
-
-CacheRocket is a performance optimization plugin for WordPress that proactively warms your site’s cache, ensuring fast page load times and improving the user experience.
+**Short Description**:CacheRocket is a performance optimization plugin for WordPress that proactively warms your site’s cache, ensuring fast page load times and improving the user experience.
 
 ## Description
 
 CacheRocket is a powerful WordPress plugin that helps you warm your site’s cache, ensuring optimal performance for your users and faster page load times. By proactively warming the cache, CacheRocket minimizes the chances of slow responses due to expired or cold cache data, providing a smooth and speedy browsing experience.
+
+### Short Description
+
+CacheRocket is a performance optimization plugin for WordPress that proactively warms your site’s cache, ensuring fast page load times and improving the user experience.
 
 ### Key Features:
 
