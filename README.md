@@ -59,8 +59,6 @@ A: It depends on your site's traffic and content update frequency. For most webs
 
 1. **CacheRocket Settings Panel**  
    ![CacheRocket Settings](assets/screenshot-1.png)
-2. **Cache Warming Logs**  
-   ![CacheRocket Logs](assets/screenshot-2.png)
 
 ## Changelog
 
