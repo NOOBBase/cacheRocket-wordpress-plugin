@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: CacheRocket Warmers
+Plugin Name: cacherocket-cache-warmers
 Description: A plugin to fetch Cache warmers from the CacheRocket API.
 Version: 1.0
 Author: NOOBBase
