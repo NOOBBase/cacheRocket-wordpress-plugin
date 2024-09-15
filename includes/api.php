@@ -10,7 +10,8 @@ function cacherocket_crawlers_fetch_data()
 
   $api_url = 'https://cacherocket.com/api/wordpress/getCrawlers';
 
-  $body = json_encode([
+  // Use wp_json_encode() instead of json_encode()
+  $body = wp_json_encode([
     'publicKey' => $api_key,
     'secretKey' => $api_secret
   ]);
