@@ -8,7 +8,7 @@
 **License**: GPLv2 or later  
 **License URI**: https://www.gnu.org/licenses/gpl-2.0.html
 
-CacheRocket is a performance optimization plugin for WordPress that proactively warms your site’s cache, ensuring fast page load times and improving the user experience.
+CacheRocket is a WordPress plugin that proactively warms your cache, ensuring faster page load times and improved performance.
 
 ## Description
 
