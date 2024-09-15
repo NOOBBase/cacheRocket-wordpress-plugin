@@ -1,0 +1,1 @@
+# cacheRocket-wordpress-plugin
