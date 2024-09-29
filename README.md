@@ -41,10 +41,12 @@ CacheRocket is a powerful WordPress plugin that helps you warm your site’s cac
 
 1. After activation, navigate to the **CacheRocket** settings page under **Settings > CacheRocket**.
 2. Configure your cache warming settings:
-   - Set the cache warming interval (e.g., hourly, daily).
-   - Select the pages or posts you want to prioritize for cache warming.
-   - View detailed reports of cache warming logs.
-3. Optionally, integrate CacheRocket with your existing caching plugin (if supported) for seamless operations.
+   - Create your FREE account at CacheRocket.com. You really can start free.
+   - Add your API keys obtained from https://cacherocket.com/account.
+   - Add the API Key in your wordpress CacheRocket settings
+   - Save and enjoy the connection to Cache rocket
+
+The plugin makes API calls tot the CacheRocket API to fetch all your existing Cache warmers. We will add more functions and features so you can fully operated your cache Warmers from your wordpress installation. But we need some more tie for this.
 
 ### Frequently Asked Questions
 
@@ -78,7 +80,7 @@ A: It depends on your site's traffic and content update frequency. For most webs
 
 ## Support
 
-For support, please contact us at [support@cacheRocket.com](mailto:support@cacheRocket.com) or open a support ticket in the [WordPress support forum](https://wordpress.org/support/plugin/cacheRocket).
+For support, please contact us at [support@cacheRocket.com](mailto:support@cacheRocket.com) or open a support ticket in the [WordPress support forum](https://wordpress.org/support/plugin/cacheRocket). If you want to learn more about our terms and conditions please visit: https://cacherocket.com/terms-and-conditions
 
 ## License
 
