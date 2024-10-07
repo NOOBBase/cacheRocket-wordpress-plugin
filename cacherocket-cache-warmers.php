@@ -1,20 +1,30 @@
 <?php
 /*
-Plugin Name: cacherocket-cache-warmers
+Plugin Name: CacheRocket - the most advanced Cache Warming
 Description: A plugin to fetch Cache warmers from the CacheRocket API.
 Version: 1.0.0
 Author: NOOBBase
 License: GPLv2 or later
 */
 
-if (!defined('ABSPATH')) {
-  exit;
+if (!defined('WPINC')) {
+  die;
 }
+
 
 function cacherocket_crawlers_register_settings()
 {
-  register_setting('cacherocket_crawlers_options_group', 'cacherocket_api_key');
-  register_setting('cacherocket_crawlers_options_group', 'cacherocket_api_secret');
+  register_setting(
+    'cacherocket_crawlers_options_group',
+    'cacherocket_api_key',
+    'sanitize_text_field'
+  );
+
+  register_setting(
+    'cacherocket_crawlers_options_group',
+    'cacherocket_api_secret',
+    'sanitize_text_field'
+  );
 
   add_settings_section('cacherocket_crawlers_section', 'API Settings', null, 'cacherocket-warmers');
 
@@ -22,6 +32,7 @@ function cacherocket_crawlers_register_settings()
   add_settings_field('cacherocket_api_secret', 'Secret API Key', 'cacherocket_crawlers_api_secret_field', 'cacherocket-warmers', 'cacherocket_crawlers_section');
 }
 add_action('admin_init', 'cacherocket_crawlers_register_settings');
+
 
 function cacherocket_crawlers_api_key_field()
 {

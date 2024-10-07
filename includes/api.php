@@ -1,4 +1,8 @@
 <?php
+if (!defined('WPINC')) {
+  die;
+}
+
 function cacherocket_crawlers_fetch_data()
 {
   $api_key = get_option('cacherocket_api_key');
